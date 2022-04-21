@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+}
+
+.header__logo{
+    border-radius: 50%;
+    border: solid 1px var(--colorGrisClaro);
+    background-image: url('/images/logo.jpg'
+    );
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    margin: 15px auto 30px;
+    width: 180px;
+}
+.header__button{
+    width: 50px;
+    padding: 5px;
+    font-size: 32px;
+    border-radius: 5px;
+    background-color: var(--colorGrisOscuro);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 15px ;
+    display: block;
+
+}
+
+.header__menu li{
+    background-color: var(--colorGrisOscuro);
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: solid 2px white;
+
+}
