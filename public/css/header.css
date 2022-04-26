@@ -36,3 +36,29 @@ header{
     border-bottom: solid 2px white;
 
 }
+
+@media (min-width: 460px){
+
+    .header__button{
+        display: none;
+    }
+    .header__menu ul{
+        overflow: hidden;
+    }
+    .header__menu li{
+        float: left;
+        width: 15.5%;
+        font-size: 0.6rem;
+        margin-right: 1.4%;
+   }
+
+   .header__menu li:last-child{
+       margin-right: 0;
+   }
+}
+@media (min-width: 768px){
+.header__menu li{
+    font-size: 1rem;
+    
+   }
+}
