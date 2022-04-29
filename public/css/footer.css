@@ -1,6 +1,15 @@
+.footer__menu {
+    width: 100%;
+    background-color: var(--colorRojo);
+}
+
+.footer__menu ul{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__menu li{
     background-color: var(--colorRojo);
-    width: 100%;
     text-transform: uppercase;
     text-align: center;
     padding: 10px 0;
@@ -8,13 +17,15 @@
 
 }
 
+
 @media (min-width:768px){
-    .footer__menu {
-        width: 100%;
-        background-color: var(--colorRojo);
-        text-align: center;
+   .footer__menu{
         padding: 60px 0;
         border-radius: 20px 20px 0px 0px;
+    }
+    .footer__menu ul{
+        flex-direction: row;
+        justify-content: center;
     }
 
     .footer__menu li{
