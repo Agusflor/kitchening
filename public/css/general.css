@@ -15,3 +15,12 @@ a{
 li{
     list-style: none;
 }
+.home__arrow__top{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    font-size: 2rem;
+}
+.home__arrow__top i:hover{
+    color: var(--colorNaranja);
+}
